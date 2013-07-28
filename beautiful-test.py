@@ -30,6 +30,10 @@ print soup.title.string
 
 print soup.p
 
+print "# start :  print soup.find_all('p')"
+print soup.find_all('p')
+print "# end :  print soup.find_all('p')"
+
 # dictionary 문법을 사용하여 테그의 속성만 얻을 수도 있다.
 print soup.p['class']
 
@@ -51,9 +55,11 @@ print "# for 문 "
 #for  x  in soup('p')[:] :
 #	print soup('p')[x]
 #	x = int(y)
-	
+print " ++++++++++++++++++++++ "
+for w in soup('p')[:]:
+	print soup.p.string 
 
-
+print " ----------------------- "
 
 
 print "# print soup('img', { 'name': 'main', })"
