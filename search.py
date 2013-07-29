@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-  test
+# python 3.2
 import urllib.request
 import re
 

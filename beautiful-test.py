@@ -31,7 +31,7 @@ print soup.title.string
 print soup.p
 
 print "# start :  print soup.find_all('p')"
-print soup.find_all('p')
+#print soup.find_all('p')
 print "# end :  print soup.find_all('p')"
 
 # dictionary 문법을 사용하여 테그의 속성만 얻을 수도 있다.
